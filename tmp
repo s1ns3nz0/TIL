@@ -1,0 +1,28 @@
+# Cloud Native Spring in Action
+## 1. Cloud Native Fundamentals
+### 1.1) What is cloud-native?
+- Cloud-native is the method for developing applications to leverage cloud technologies
+- 3P of cloud-native
+  + Platform: Cloud-native applications are running on a distributed environment, such as public, private, and Hybrid clouds
+  + Property: Cloud-native applications are designed to be scalable, elastic, and easily manageable
+  + Practice: Changing the system into a frequent, predictable way by robust automation is included, such as Automation, Continuous Delivery, and DevOps
+### 1.2) Cloud and Cloud computing model
+- Cloud is an IT infrastructure that provides computing resources to customers according to the cloud computing model
+- Cloud computing service models: IaaS, CaaS, PaaS, FaaS, SaaS
+- Cloud computing deployment models: Private, Public, Hybrid
+### 1.3) Characteristics of Cloud-native application
+- Scalability: Veritcal(scaling up/down-CPU, Memory), Horizontal(Scaling Out/In-Node, Container)
+- Loose coupling: Each component is developed independently. Although one component is changed, Others shouldn't be modified
+- Resilience: The capability of a Hardware-Software network to provide and maintain an acceptable level of service encountering errors and issues that prevent normal operation.
+- Observability: Considering a system, Observability is how the inside of the system can be measured properly from its output
+- 관리 용이성: 외부 입력을 통해 유한한 시간 이내에 시스템의 상태 또는 출력을 변경하는 능력
+### 1.4) 클라우드 네이티브를 지원하는 문화 및 관행
+- 강력한 자동화와 결합하면 최소한의 노력으로 큰 영향력을 끼치는 변경을 자주 그리고 예측 가능한 방식으로 수행할 수 있게 해준다.
+- 자동화: 프로세스와 작업이 반복 가능하며 시스템이 전반적으로 한층 더 안정적이고 신뢰할 수 있게 된다.(코드형 인프라, 코드형 설정)
+- 지속적 전달: 프로덕션 환경에 언제든지 배포할 수 있는 방식으로 소프트웨어를 구축하는 소프트웨어 개발의 한 분야
+- DevOps: 지위나 배경에 상관없이 사람들이 시스템을 구상, 개발, 배포 및 운영하기 위해 함께 협력하는 문화
+### 1.5) 클라우드가 최선의 선택인가?
+
+? Question
+- 어떤 클라우드 컴퓨팅 서비스 모델/배포 모델을 사용해야 하는지 결정하기 위해 필요한 요소들?
+- 
