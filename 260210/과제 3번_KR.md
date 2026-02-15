@@ -1,4 +1,4 @@
-# 1. 주요 질문
+# 1. Questions
 ## 1) ALB는 왜 Public Subnet에 존재하는가?
 - ALB는 인터넷에서 들어오는 트래픽을 받아 처리해야 한다.
 - 사용자 브라우저에서 발생한 요청이 인터넷을 통해 IGW(Internet Gateway)와 연결된 ALB로 유입된 후, 적절하게 Private Subnet의 웹 서버로 분배된다.
